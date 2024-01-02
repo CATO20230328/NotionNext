@@ -12,7 +12,7 @@ const Style = () => {
         background-color: #eeedee
     }
     .dark body{
-        background-color: black;
+        background-color: #ff3677;
     }
 
     .article-padding {
