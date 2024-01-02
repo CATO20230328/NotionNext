@@ -20,7 +20,7 @@ const CONFIG = {
 
   // 菜单
   NEXT_MENU_HOME: true, // 显示首页
-  NEXT_MENU_CATEGORY: true, // 显示分类
+  NEXT_MENU_CATEGORY: false, // 显示分类
   NEXT_MENU_TAG: true, // 显示标签
   NEXT_MENU_ARCHIVE: true, // 显示归档
   NEXT_MENU_SEARCH: true, // 显示搜索
@@ -31,7 +31,7 @@ const CONFIG = {
   NEXT_WIDGET_TOC: true, // 移动端显示悬浮目录
 
   NEXT_ARTICLE_RELATE_POSTS: true, // 相关文章推荐
-  NEXT_ARTICLE_COPYRIGHT: true, // 文章版权声明
+  NEXT_ARTICLE_COPYRIGHT: false, // 文章版权声明
   NEXT_ARTICLE_INFO: true // 显示文章信息
 
 }
