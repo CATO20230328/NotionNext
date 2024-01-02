@@ -23,4 +23,4 @@ const 公告 = ({ post, className }) => {
         </div>)}
     </>
 }
-export default Announcement
+export default 公告
