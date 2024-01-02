@@ -3,7 +3,7 @@ import dynamic from 'next/dynamic'
 
 const NotionPage = dynamic(() => import('@/components/NotionPage'))
 
-const 公告 = ({ post, className }) => {
+const Announcement = ({ post, className }) => {
   const { locale } = useGlobal()
   if (!post) {
     return <></>
@@ -23,4 +23,4 @@ const 公告 = ({ post, className }) => {
         </div>)}
     </>
 }
-export default 公告
+export default Announcement
