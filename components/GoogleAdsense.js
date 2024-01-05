@@ -54,19 +54,19 @@ const AdSlot = ({ type = 'show' }) => {
             data-ad-layout="in-article"
             data-ad-format="fluid"
             data-adtest={siteConfig('ADSENSE_GOOGLE_TEST') ? 'on' : 'off'}
-            data-ad-client={siteConfig('ca-pub-9941785108050649')}
-            data-ad-slot={siteConfig('5437366768')}></ins>
+            data-ad-client={siteConfig('ADSENSE_GOOGLE_ID')}
+            data-ad-slot={siteConfig('ADSENSE_GOOGLE_SLOT_IN_ARTICLE')}></ins>
   }
 
   // 信息流广告
   if (type === 'flow') {
     return <ins className="adsbygoogle"
             data-ad-format="fluid"
-            data-ad-layout-key="-+21+qm-35-7c+s1"
+            data-ad-layout-key="-5j+cz+30-f7+bf"
             style={{ display: 'block' }}
             data-adtest={siteConfig('ADSENSE_GOOGLE_TEST') ? 'on' : 'off'}
-            data-ad-client={siteConfig('ca-pub-9941785108050649')}
-            data-ad-slot={siteConfig('4567084320')}></ins>
+            data-ad-client={siteConfig('ADSENSE_GOOGLE_ID')}
+            data-ad-slot={siteConfig('ADSENSE_GOOGLE_SLOT_FLOW')}></ins>
   }
 
   // 原生广告
@@ -75,16 +75,16 @@ const AdSlot = ({ type = 'show' }) => {
             style={{ display: 'block', textAlign: 'center' }}
             data-ad-format="autorelaxed"
             data-adtest={siteConfig('ADSENSE_GOOGLE_TEST') ? 'on' : 'off'}
-            data-ad-client={siteConfig('ca-pub-9941785108050649')}
-            data-ad-slot={siteConfig('2811203421')}></ins>
+            data-ad-client={siteConfig('ADSENSE_GOOGLE_ID')}
+            data-ad-slot={siteConfig('ADSENSE_GOOGLE_SLOT_NATIVE')}></ins>
   }
 
   //  展示广告
   return <ins className="adsbygoogle"
         style={{ display: 'block' }}
-        data-ad-client={siteConfig('ca-pub-9941785108050649')}
+        data-ad-client={siteConfig('ADSENSE_GOOGLE_ID')}
         data-adtest={siteConfig('ADSENSE_GOOGLE_TEST') ? 'on' : 'off'}
-        data-ad-slot={siteConfig('5752227388')}
+        data-ad-slot={siteConfig('ADSENSE_GOOGLE_SLOT_AUTO')}
         data-ad-format="auto"
         data-full-width-responsive="true"></ins>
 }
